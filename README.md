@@ -1,20 +1,18 @@
 
 # SoundSense + ReviewRAG (MVP)
 
-This repository contains the SoundSense companion project for the ReviewRAG effort: a tiny starter implementation and Product Requirements Document (PRD) for inferring acoustic accessibility signals from public reviews and explaining them transparently.
+This repository contains the SoundSense companion project for the Community Docs RAG project: a tiny starter implementation and Product Requirements Document (PRD) for inferring acoustic accessibility signals from public reviews and explaining them transparently.
 
 ## General Framing
 
 This project pair explores two complementary NLP capabilities applied to public reviews:
 
 - Inferring probabilistic accessibility signals (SoundSense)
-- Answering user questions with grounded, review-based evidence (CommunityDocs RAG)
-
-Together, they demonstrate how NLP systems can both surface patterns and explain them transparently.
+- Answering user questions with grounded, review-based evidence (Community Docs RAG)
 
 ## Product Name
 
-SoundSense + ReviewRAG (MVP)
+SoundSense (MVP)
 
 ## Problem Statement
 
@@ -22,10 +20,9 @@ Neurodivergent people and others with sensory sensitivities often struggle to ch
 
 ## Goals
 
-- Help users assess whether a café is likely to be acoustically comfortable
+- Help users assess whether a café/restaurant is likely to be acoustically comfortable
 - Provide evidence-backed explanations rather than opaque scores
 - Surface uncertainty honestly
-- Avoid claims of objectivity or precision
 
 ## Non-Goals
 
@@ -47,7 +44,7 @@ This is an assistive decision-support MVP.
 
 Users want to:
 
-- Quickly understand if a café is likely to be noisy
+- Quickly understand if a café/restaurant is likely to be noisy
 - Ask specific questions (e.g. “Is it loud in the evening?”)
 - See why the system says something
 - Understand uncertainty and limitations
@@ -65,14 +62,7 @@ Users want to:
 ## Technical Approach (High Level)
 
 - **SoundSense:** Weak supervision (rules + LLM assistance), review-level inference, venue-level aggregation with uncertainty.
-- **ReviewRAG:** Embedding-based retrieval over review chunks, LLM answer generation with strict citation enforcement, and refusal when evidence is insufficient.
-
-## Ethical Considerations
-
-- Avoid false precision
-- Do not present outputs as objective truth
-- Clearly communicate uncertainty
-- Respect dataset licensing and consent constraints
+- **Community Docs RAG:** Embedding-based retrieval over review chunks, LLM answer generation with strict citation enforcement, and refusal when evidence is insufficient.
 
 ## Success Metrics (MVP)
 
@@ -94,7 +84,7 @@ See the `communitydocs-rag` project for the companion ReviewRAG README and imple
 
 ## Installation & Next Steps
 
-This is an early-stage project scaffold. To develop locally:
+This is an early-stage project scaffold. TBD:
 
 ```bash
 git clone <repo-url>
