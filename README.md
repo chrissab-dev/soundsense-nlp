@@ -1,5 +1,5 @@
 
-# SoundSense + ReviewRAG (MVP)
+# SoundSense + ReviewRAG (MVP) - **work in progress**
 
 This repository contains the SoundSense companion project for the Community Docs RAG project: a tiny starter implementation and Product Requirements Document (PRD) for inferring acoustic accessibility signals from public reviews and explaining them transparently.
 
